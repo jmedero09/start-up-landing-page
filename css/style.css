@@ -1,0 +1,43 @@
+
+html{
+
+}
+
+body{
+	background-color:LightGray;
+}
+nav{	
+	background-color: white;
+	width:100%;
+}
+nav .content{
+	width: 970px;
+    height: 70px;
+    margin: 0 auto;
+
+}
+nav .top-logo{	
+	height: 2.75em;
+	margin-left:15%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+nav .top-menu{
+	display: inline-block;
+	float:right;
+	margin-top: 1.75em;
+	margin-right:8.75em;
+}
+nav .top-menu li{
+	display: inline;
+	margin-left:1.5em;
+	font-weight: 500;
+}
+
+nav .top-menu li a{
+	color: grey;
+	text-decoration: none;
+}
+nav .top-menu li a:hover{
+	color: black;
+}
