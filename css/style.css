@@ -1,10 +1,14 @@
 
 html{
-
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body{
 	background-color:LightGray;
+	font-family: 'Roboto', sans-serif;
 }
 nav{	
 	background-color: white;
@@ -17,10 +21,14 @@ nav .content{
 
 }
 nav .top-logo{	
-	height: 2.75em;
-	margin-left:15%;
+	height: 3.75em;
+	padding-left:80px; 	
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+nav .top-menu .active{
+	color: #4c5058;
+    font-weight: 500;
 }
 nav .top-menu{
 	display: inline-block;
@@ -29,14 +37,16 @@ nav .top-menu{
 	margin-right:8.75em;
 }
 nav .top-menu li{
-	display: inline;
+	display: inline-block;
 	margin-left:1.5em;
 	font-weight: 500;
 }
 
 nav .top-menu li a{
-	color: grey;
 	text-decoration: none;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
 }
 nav .top-menu li a:hover{
 	color: black;
