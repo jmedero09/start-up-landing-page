@@ -13,11 +13,13 @@ body{
 nav{	
 	background-color: white;
 	width:100%;
+	position: fixed;
 }
 nav .content{
 	width: 970px;
     height: 70px;
     margin: 0 auto;
+
 
 }
 nav .top-logo{	
@@ -51,3 +53,45 @@ nav .top-menu li a{
 nav .top-menu li a:hover{
 	color: black;
 }
+/*Background image header and button */
+header{
+	background-image: url("../images/first-background copy.jpg");
+	height: 45.938rem;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+header .content{
+}
+header .content .intro{
+	color: white;
+	padding-top: 7em;
+	margin-top: 0px;
+	font-weight:100;
+	font-size: 3em;
+}
+header .sub-intro{
+color: white;
+font-weight: 100;
+font-size: 1.5em;
+}
+header button{
+	padding:15px 35px;
+	border-radius: 5px;
+	border-color:#F15B2A;
+	background-color:#F15B2A;
+	border-style:none;
+	text-shadow:none;
+	color:white;
+}
+header button:hover{
+	background-color: #d9400e;
+	cursor: pointer;
+}
+
+
+
+
+
+
