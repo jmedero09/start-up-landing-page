@@ -14,6 +14,7 @@ nav{
 	background-color: white;
 	width:100%;
 	position: fixed;
+	z-index: 9999;
 }
 nav .content{
 	width: 970px;
@@ -88,6 +89,35 @@ header button{
 header button:hover{
 	background-color: #d9400e;
 	cursor: pointer;
+}
+main {	
+	background-color: white;
+	height:970px;
+}
+main .widget{
+	display:inline-block;
+	width:33.3%;
+	height:250px;
+	margin-right:-4px;
+}
+main h1{
+	text-align: center;
+	margin: 0px;
+	padding-top: 5em;
+	padding-bottom:2em ;
+	font-weight: 100;
+	font-size: 38px;
+	letter-spacing: 3px;
+}
+
+main .widget img{
+	height: 8em;
+	display:block;
+	width: 100%;
+	margin 0 auto;	
+}
+main .widget h3{
+	text-align: center;
 }
 
 
