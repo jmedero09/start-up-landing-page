@@ -92,7 +92,6 @@ header button:hover{
 }
 main {	
 	background-color: white;
-	height:970px;
 }
 main .widget{
 	display:inline-block;
@@ -103,7 +102,7 @@ main .widget{
 main h1{
 	text-align: center;
 	margin: 0px;
-	padding-top: 5em;
+	padding-top: 4em;
 	padding-bottom:2em ;
 	font-weight: 100;
 	font-size: 38px;
@@ -119,7 +118,30 @@ main .widget img{
 main .widget h3{
 	text-align: center;
 }
+footer .footer-heading{
+	text-align: center;
+}
+footer .social-media{
+	text-align: center;
 
+
+}
+footer .twitter{
+	border: solid 1px;
+	border-width: 15px;
+}
+footer .facebook{
+	border: solid 1px;
+
+}
+footer .instagram{
+	border: solid 1px;
+
+
+}
+footer p{
+	text-align: center;
+}
 
 
 
